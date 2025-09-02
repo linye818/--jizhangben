@@ -1,0 +1,14 @@
+# 安装Flutter（如果尚未安装）
+# 参考官方文档：https://flutter.dev/docs/get-started/install
+
+# 创建新项目
+flutter create accounting_app
+cd accounting_app
+
+# 初始化Git仓库
+git init
+git add .
+git commit -m "Initial commit: Create Flutter project"
+
+# 添加必要的依赖
+flutter pub add sqflite path provider flutter_slidable intl charts_flutter
